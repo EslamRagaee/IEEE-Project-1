@@ -6,22 +6,26 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.main {
-  position: absolute;
-  top: 50%;
-  margin-top: -17%;
-  left: 40%;
+main {
+  /* position: absolute;
+  z-index: 1; */
 }
-
 h1 {
-  color: transparent;
-
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
 }
+
 
 .qr-container {
- 
+
   background-color: white;
   width: 320px;
   height: 490px;
@@ -36,6 +40,7 @@ h1 {
 }
 
 .qr-img img {
+  z-index: 1;
   width: 290px;
   border-radius: 10px;
 }
