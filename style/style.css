@@ -15,9 +15,13 @@ body {
   left: 40%;
 }
 
+h1 {
+  color: transparent;
 
+}
 
 .qr-container {
+ 
   background-color: white;
   width: 320px;
   height: 490px;
